@@ -29,6 +29,10 @@ public class MapGenerater : MonoBehaviour
                 {
                     tile = Instantiate(WalkTile, position, Quaternion.identity);
                     tile.name = $"Tile walk ({x}, {y})";
+
+                    var control = tile.GetComponent<TileControl>();
+                    control.X = x;
+                    control.Y = y;
                 }
 
                 tile.transform.SetParent(GetComponent<Transform>());

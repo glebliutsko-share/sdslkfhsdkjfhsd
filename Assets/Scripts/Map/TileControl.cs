@@ -1,14 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TileControl : MonoBehaviour
 {
     private GameObject _player;
 
+    public int X { get; set; }
+    public int Y { get; set; }
+
     private void OnMouseUp()
     {
-        _player.transform.position = transform.position;
+        var control = _player.GetComponent<PlayerControl>();
+        control.Move(X, Y);
     }
 
     void Start()
