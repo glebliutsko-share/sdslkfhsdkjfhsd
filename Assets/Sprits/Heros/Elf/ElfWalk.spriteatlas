@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ElfWalk
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 50743ed1729a4f041982dcbfb0389df8, type: 3}
+    - {fileID: 2800000, guid: e05d5e5ec24b3d04b9a8d2bd8cac33b6, type: 3}
+    - {fileID: 2800000, guid: a1b7c419007f0f04d96ad65cf82581f8, type: 3}
+    - {fileID: 2800000, guid: b24c4068e7d7c284d9c5ae91cdf63d4b, type: 3}
+    - {fileID: 2800000, guid: 695d28a043b73a047b69403d9254ba81, type: 3}
+    - {fileID: 2800000, guid: 9a039990983deda4ab3be9ce91e2e285, type: 3}
+    - {fileID: 2800000, guid: f1e9167b0f63ac3428b12767197625f5, type: 3}
+    - {fileID: 2800000, guid: a03bc1e493d151f498afc4a91abb172d, type: 3}
+    - {fileID: 2800000, guid: db223af38a7af9349867f2519a82d2bf, type: 3}
+    - {fileID: 2800000, guid: 8e9fdda85ae9ba645810e06351c8b8fc, type: 3}
+    - {fileID: 2800000, guid: a9afe05a1b5985145984637cc77cdcb1, type: 3}
+    - {fileID: 2800000, guid: 5dba39212ba4c144092ce553bc4aaa63, type: 3}
+    - {fileID: 2800000, guid: 30de31dcff5ca844b81409873708da53, type: 3}
+    - {fileID: 2800000, guid: 8242ab7cf2a91f54090a5c8894a6bf59, type: 3}
+    - {fileID: 2800000, guid: 2506a389933cb644c84fe8b976da1236, type: 3}
+    - {fileID: 2800000, guid: 49cd7b2c9145f564fa28ae92ca86f119, type: 3}
+    - {fileID: 2800000, guid: c95d67647904c504aa608b8838f9d8dd, type: 3}
+    - {fileID: 2800000, guid: 9733dbefef5b37b468c3f345939e7349, type: 3}
+    - {fileID: 2800000, guid: b278b1e27da62e047987bae40ac843c7, type: 3}
+    - {fileID: 2800000, guid: eaf893b62f5d6564eac9b64ce7456e7d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9a039990983deda4ab3be9ce91e2e285, type: 3}
+  - {fileID: 21300000, guid: 695d28a043b73a047b69403d9254ba81, type: 3}
+  - {fileID: 21300000, guid: 5dba39212ba4c144092ce553bc4aaa63, type: 3}
+  - {fileID: 21300000, guid: 50743ed1729a4f041982dcbfb0389df8, type: 3}
+  - {fileID: 21300000, guid: b278b1e27da62e047987bae40ac843c7, type: 3}
+  - {fileID: 21300000, guid: db223af38a7af9349867f2519a82d2bf, type: 3}
+  - {fileID: 21300000, guid: c95d67647904c504aa608b8838f9d8dd, type: 3}
+  - {fileID: 21300000, guid: a03bc1e493d151f498afc4a91abb172d, type: 3}
+  - {fileID: 21300000, guid: eaf893b62f5d6564eac9b64ce7456e7d, type: 3}
+  - {fileID: 21300000, guid: b24c4068e7d7c284d9c5ae91cdf63d4b, type: 3}
+  - {fileID: 21300000, guid: 8e9fdda85ae9ba645810e06351c8b8fc, type: 3}
+  - {fileID: 21300000, guid: a1b7c419007f0f04d96ad65cf82581f8, type: 3}
+  - {fileID: 21300000, guid: 2506a389933cb644c84fe8b976da1236, type: 3}
+  - {fileID: 21300000, guid: a9afe05a1b5985145984637cc77cdcb1, type: 3}
+  - {fileID: 21300000, guid: f1e9167b0f63ac3428b12767197625f5, type: 3}
+  - {fileID: 21300000, guid: 49cd7b2c9145f564fa28ae92ca86f119, type: 3}
+  - {fileID: 21300000, guid: 8242ab7cf2a91f54090a5c8894a6bf59, type: 3}
+  - {fileID: 21300000, guid: 30de31dcff5ca844b81409873708da53, type: 3}
+  - {fileID: 21300000, guid: e05d5e5ec24b3d04b9a8d2bd8cac33b6, type: 3}
+  - {fileID: 21300000, guid: 9733dbefef5b37b468c3f345939e7349, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 2_animation_walk_005
+  - 2_animation_walk_004
+  - 2_animation_walk_011
+  - 2_animation_walk_000
+  - 2_animation_walk_018
+  - 2_animation_walk_008
+  - 2_animation_walk_016
+  - 2_animation_walk_007
+  - 2_animation_walk_019
+  - 2_animation_walk_003
+  - 2_animation_walk_009
+  - 2_animation_walk_002
+  - 2_animation_walk_014
+  - 2_animation_walk_010
+  - 2_animation_walk_006
+  - 2_animation_walk_015
+  - 2_animation_walk_013
+  - 2_animation_walk_012
+  - 2_animation_walk_001
+  - 2_animation_walk_017
+  m_RenderDataMap: {}
+  m_Tag: ElfWalk
+  m_IsVariant: 0

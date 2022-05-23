@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ElfIdle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4a89c99c9ae80564f8a237c25c1d493e, type: 3}
+    - {fileID: 2800000, guid: 19909b7cd78ecb147960e9ba4460171c, type: 3}
+    - {fileID: 2800000, guid: 6cfb341a3d1fb2c45b550951bf962b96, type: 3}
+    - {fileID: 2800000, guid: 026cc7647174a6a4188f3473af865084, type: 3}
+    - {fileID: 2800000, guid: 3ba7fef1ece552744b381aea67830e0a, type: 3}
+    - {fileID: 2800000, guid: 76b13465f0c6c4942828d76ffd1c1b6a, type: 3}
+    - {fileID: 2800000, guid: 9a96c379eecc55d4d81b1c24d655ced5, type: 3}
+    - {fileID: 2800000, guid: e54c188135235a442b5c4455ef9f62e9, type: 3}
+    - {fileID: 2800000, guid: 915339b05368f0f40a18844c8e46d76c, type: 3}
+    - {fileID: 2800000, guid: ba9a6c8829b09ed4099074092dd8261b, type: 3}
+    - {fileID: 2800000, guid: 3b5954424e617b244858dd6f15268fab, type: 3}
+    - {fileID: 2800000, guid: a6548428ebb140d44bd3c9ad66597758, type: 3}
+    - {fileID: 2800000, guid: 32e41bc3d611080409e3a823bbedca7e, type: 3}
+    - {fileID: 2800000, guid: 443097bcdb7da054094b21f03e12e5f4, type: 3}
+    - {fileID: 2800000, guid: 148a6f3517ce20c4989ecf94da74e2a2, type: 3}
+    - {fileID: 2800000, guid: b063612b8f6c8c643a6599dd2a33585c, type: 3}
+    - {fileID: 2800000, guid: 8b2d7360a5eb5114ebd243d09018dd58, type: 3}
+    - {fileID: 2800000, guid: 97bd39fe45416ac48ae515b2b4cdf0cd, type: 3}
+    - {fileID: 2800000, guid: 72ad1656195089343be14f56b94e914a, type: 3}
+    - {fileID: 2800000, guid: 08e52efa69c8b8a428dafbb5ca6698aa, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8b2d7360a5eb5114ebd243d09018dd58, type: 3}
+  - {fileID: 21300000, guid: 915339b05368f0f40a18844c8e46d76c, type: 3}
+  - {fileID: 21300000, guid: e54c188135235a442b5c4455ef9f62e9, type: 3}
+  - {fileID: 21300000, guid: 3ba7fef1ece552744b381aea67830e0a, type: 3}
+  - {fileID: 21300000, guid: 3b5954424e617b244858dd6f15268fab, type: 3}
+  - {fileID: 21300000, guid: 32e41bc3d611080409e3a823bbedca7e, type: 3}
+  - {fileID: 21300000, guid: 026cc7647174a6a4188f3473af865084, type: 3}
+  - {fileID: 21300000, guid: 148a6f3517ce20c4989ecf94da74e2a2, type: 3}
+  - {fileID: 21300000, guid: 76b13465f0c6c4942828d76ffd1c1b6a, type: 3}
+  - {fileID: 21300000, guid: 72ad1656195089343be14f56b94e914a, type: 3}
+  - {fileID: 21300000, guid: a6548428ebb140d44bd3c9ad66597758, type: 3}
+  - {fileID: 21300000, guid: ba9a6c8829b09ed4099074092dd8261b, type: 3}
+  - {fileID: 21300000, guid: 9a96c379eecc55d4d81b1c24d655ced5, type: 3}
+  - {fileID: 21300000, guid: 6cfb341a3d1fb2c45b550951bf962b96, type: 3}
+  - {fileID: 21300000, guid: 08e52efa69c8b8a428dafbb5ca6698aa, type: 3}
+  - {fileID: 21300000, guid: b063612b8f6c8c643a6599dd2a33585c, type: 3}
+  - {fileID: 21300000, guid: 19909b7cd78ecb147960e9ba4460171c, type: 3}
+  - {fileID: 21300000, guid: 4a89c99c9ae80564f8a237c25c1d493e, type: 3}
+  - {fileID: 21300000, guid: 443097bcdb7da054094b21f03e12e5f4, type: 3}
+  - {fileID: 21300000, guid: 97bd39fe45416ac48ae515b2b4cdf0cd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 2_animation_idle_016
+  - 2_animation_idle_008
+  - 2_animation_idle_007
+  - 2_animation_idle_004
+  - 2_animation_idle_010
+  - 2_animation_idle_012
+  - 2_animation_idle_003
+  - 2_animation_idle_014
+  - 2_animation_idle_005
+  - 2_animation_idle_018
+  - 2_animation_idle_011
+  - 2_animation_idle_009
+  - 2_animation_idle_006
+  - 2_animation_idle_002
+  - 2_animation_idle_019
+  - 2_animation_idle_015
+  - 2_animation_idle_001
+  - 2_animation_idle_000
+  - 2_animation_idle_013
+  - 2_animation_idle_017
+  m_RenderDataMap: {}
+  m_Tag: ElfIdle
+  m_IsVariant: 0
