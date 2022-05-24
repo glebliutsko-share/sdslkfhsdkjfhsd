@@ -1,14 +1,49 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameControl : MonoBehaviour
 {
-    public GameObject MapGenerater;
-    public GameObject Player;
+    private bool _isStartGame = false;
+    private GameObject _player;
+    private GameObject _map;
 
-    void Awake()
+    public GameObject MapPrefab;
+    public GameObject PlayerPrefab;
+
+    public GameObject MainMenu;
+    public GameObject LevelsMenu;
+
+    private void CloseAllMenu()
     {
-        Instantiate(MapGenerater);
+        MainMenu.SetActive(false);
+        LevelsMenu.SetActive(false);
+    }
+
+    public void OpenMainMenu()
+    {
+        CloseAllMenu();
+        MainMenu.SetActive(true);
+    }
+
+    public void OpenLevelsMenu()
+    {
+        CloseAllMenu();
+        LevelsMenu.SetActive(true);
+    }
+
+    public void StartLevel(int level)
+    {
+        if (_isStartGame)
+            return;
+
+        CloseAllMenu();
+
+        _player = Instantiate(PlayerPrefab);
+        _player.transform.SetParent(gameObject.transform);
+        _player.name = "PlayerElf";
+        _player.GetComponent<PlayerControl>().Move(level, 0, false);
+
+        _map = Instantiate(MapPrefab);
+        _map.transform.SetParent(gameObject.transform);
+        _map.name = "Map";
     }
 }

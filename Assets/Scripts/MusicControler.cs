@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioControler : MonoBehaviour
+public class MusicControler : MonoBehaviour
 {
-    public bool IsEnabled = true;
+    private bool _isEnabled = true;
     public AudioSource audioSource;
 
     private void UpdateState()
     {
-        if (IsEnabled)
+        if (_isEnabled)
             audioSource.Play();
         else
             audioSource.Pause();
@@ -22,7 +22,7 @@ public class AudioControler : MonoBehaviour
 
     public void Switch()
     {
-        IsEnabled = !IsEnabled;
+        _isEnabled = !_isEnabled;
         UpdateState();
     }
 }

@@ -20,7 +20,7 @@ public class MapGenerater : MonoBehaviour
                 var position = CoordinatesConverter.ConvertToScreenCoordinates(new Vector2(x, y));
 
                 GameObject tile;
-                if (Random.Range(0, 5) == 0)
+                if (y != 0 && Random.Range(0, 5) == 0)
                 {
                     tile = Instantiate(WaterTile, position, Quaternion.identity);
                     tile.name = $"Tile water ({x}, {y})";

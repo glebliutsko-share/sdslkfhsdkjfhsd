@@ -8,20 +8,23 @@ public class PlayerControl : MonoBehaviour
 {
     private bool _isMoving = false;
 
-    public void Move(int xGame, int yGame)
+    public void Move(int xGame, int yGame, bool smoothMove = true)
     {
-        Move(new Vector2(xGame, yGame));
+        Move(new Vector2(xGame, yGame), smoothMove);
     }
 
-    public void Move(Vector2 gameCoordinates)
+    public void Move(Vector2 gameCoordinates, bool smoothMove = true)
     {
         if (_isMoving)
             return;
 
         Vector2 screenCoordTile = CoordinatesConverter.ConvertToScreenCoordinates(gameCoordinates);
 
-        Vector2 screenTile = new Vector2(screenCoordTile.x, screenCoordTile.y + 0.8f);
-        StartCoroutine(SmoothMoving(screenTile));
+        Vector2 screenCoord = new Vector2(screenCoordTile.x, screenCoordTile.y + 0.8f);
+        if (smoothMove)
+            StartCoroutine(SmoothMoving(screenCoord));
+        else
+            gameObject.transform.position = screenCoord;
     }
 
     private IEnumerator SmoothMoving(Vector2 newPostion)
